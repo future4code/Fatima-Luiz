@@ -1,0 +1,2 @@
+// 1. utilizar palavras chaves fáceis, com informações relevantes para o código como itens solicitados no enunciado, pensar nas entradas e saídas em quais e como serão os dados recebidos e possíveis formatos de resposta, montar diagramas visuais utilizando a lógica do código, criar código feio anotando todas as possíveis soluções pensadas, testar até funcionar e separar as funções de cada elemento.
+
