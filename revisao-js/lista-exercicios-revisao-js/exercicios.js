@@ -30,7 +30,17 @@ function retornaQuantidadeElementos(array) {
 
 // EXERCÍCIO 06
 function retornaExpressoesBooleanas() {
+  const booleanoUm = true
+  const booleanoDois = false
+  const booleanoTres = !booleanoDois
+  const booleanoQuatro = !booleanoTres
+  const respostas = [booleanoUm && booleanoDois && !booleanoQuatro,
+  (booleanoUm && booleanoDois) || !booleanoTres,
+  (booleanoDois || booleanoTres) && (booleanoQuatro || booleanoUm),
+  !(booleanoDois && booleanoTres) || !(booleanoUm && booleanoTres),
+  !(booleanoUm) && !(booleanoTres) || (!booleanoQuatro && booleanoTres && booleanoTres)]
 
+  return respostas
 }
 
 // EXERCÍCIO 07
@@ -43,6 +53,9 @@ function checaTriangulo(a, b, c) {
   // return 'Escaleno'
   // return 'Equilátero'
   // return 'Isósceles'
+  let classificacao;
+  a == b && b == c ? classificacao = 'Equilátero' : a == b || a == c || c == b ? classificacao = 'Isósceles' : classificacao = 'Escaleno'
+  return classificacao
 }
 
 // EXERCÍCIO 09
