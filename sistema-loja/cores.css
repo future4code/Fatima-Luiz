@@ -1,0 +1,43 @@
+
+h1 {
+  background-color: ;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 65px;
+  color: goldenrod;
+  
+  <!-- Bem vindo --> 
+}  
+
+h3 {
+  text-align: center;
+  font-size: 20px;
+  color: purple;
+  
+  <!-- Aqui você encontra pipipopopo --> 
+}
+
+div {
+  text-align: center;
+  color: red;
+}
+
+p {
+  text-align: center;
+  color: blue;
+
+  <!--- Siga nas redes -->
+}
+
+
+body {
+  
+  background-color:lightgoldenrodyellow;
+
+  <!-- Corpo da página --> 
+}
+
+footer {
+  text-align: center;
+  <!-- Rodapé --> 
+}
