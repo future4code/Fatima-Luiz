@@ -8,29 +8,24 @@ header {
 }
 
 body {
-    background-attachment: fixed;
-    background-image: url(img/fundosite.jpg);
-    background-size: 1300px 1300px;
+   background-color: black;
     }
 
     .imgpos {
-        position: absolute;
-        left: 0%;
-        top: 0%
-        } 
-
-    p {
-        color: wheat;
-        text-align: center;
-    }
-
+        position: fixed;
+        right: 0%;
+        left: 5%;
+        top: 5%;
+        border: 3px solid white;
+        }
    
 
     .redes-sociais {
+        color: white;
     text-align: center;
     }
     
     footer {
         text-align: center;
-        color: c
+        color: grey
     }
