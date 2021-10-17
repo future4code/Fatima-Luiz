@@ -1,0 +1,36 @@
+header {
+    font-size: 20px;
+    text-align: center;}
+
+.titulodev {
+    color: whitesmoke;
+    text-align: center;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: url(img/fundosite.jpg);
+    background-size: 1300px 1300px;
+    }
+
+    .imgpos {
+        position: absolute;
+        left: 0%;
+        top: 0%
+        } 
+
+    p {
+        color: wheat;
+        text-align: center;
+    }
+
+   
+
+    .redes-sociais {
+    text-align: center;
+    }
+    
+    footer {
+        text-align: center;
+        color: c
+    }
