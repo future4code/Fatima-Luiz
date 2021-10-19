@@ -1,6 +1,9 @@
 header {
     font-size: 20px;
-    text-align: center;}
+    text-align: center;
+    background-color: whitesmoke;
+    margin-top: ;
+}
 
 .titulodev {
     color: whitesmoke;
@@ -15,7 +18,7 @@ body {
         position: fixed;
         right: 0%;
         left: 5%;
-        top: 5%;
+        top: 6%;
         border: 3px solid white;
         }
    
