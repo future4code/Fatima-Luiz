@@ -4,3 +4,40 @@ header {
     background-color: whitesmoke;
     margin-top: ;
 }
+
+body {
+    background-color: black;
+     }
+     nav {
+         width: 100%;
+         background: #ffffff;
+         text-align: center;
+         font-size: 20px
+       }
+ 
+     .topnav a:hover {
+         background-color: rgb(40, 26, 119);
+         color: white
+       }
+       .tapnav a:active {
+ 
+         
+       }
+
+  .imgpos {
+    position: fixed;
+    right: 0%;
+    left: 5%;
+    top: 6%;
+    border: 3px solid white;
+    }
+
+  .redes-sociais {
+    color: white;
+text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: grey
+}
