@@ -99,6 +99,8 @@ div:last-child {
 
 table {
     width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 td button {
@@ -107,6 +109,7 @@ td button {
     height: 30px;
     border-radius: 5px;
     color: black;
+ 
 }
 
 .container-do-search {
@@ -114,7 +117,6 @@ td button {
     height: 100px;
 
 }
-
 
 #back-button {
     background-color: white;
