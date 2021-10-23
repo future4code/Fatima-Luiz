@@ -2,7 +2,6 @@ header {
     font-size: 20px;
     text-align: center;
     background-color: whitesmoke;
-    margin-top: ;
 }
 
 body {
@@ -19,9 +18,7 @@ body {
          background-color: rgb(40, 26, 119);
          color: white
        }
-       .tapnav a:active {
- 
-         
+       .tapnav a:active {          
        }
 
   .imgpos {
@@ -34,7 +31,7 @@ body {
 
   .redes-sociais {
     color: white;
-text-align: center;
+  text-align: center;
 }
 
 footer {
