@@ -31,4 +31,45 @@ function calculaPrecoTotal(quantidade) {
    }
 }
 
-3. 
+3.  
+
+
+
+4. 
+
+   function contaOcorrencias(arrayDeNumeros, numeroEscolhido) {
+	let quantidade = 0
+
+  for (let number of arrayDeNumeros){
+    if (number === numeroEscolhido){
+      quantidade++
+    }
+  }
+
+  if(quantidade === 0){
+		return "Número não encontrado"
+  } else {
+    return `O número ${numeroEscolhido} aparece ${quantidade}x`
+  }
+}
+
+
+
+5. 
+
+function criarArrayNomesAnimais() {
+    const animais = [
+      { nome: "Cachorro", classificacao: "mamífero" },
+      { nome: "Papagaio", classificacao: "ave" },
+      { nome: "Gato", classificacao: "mamífero" },
+      { nome: "Carpa", classificacao: "peixe" },
+      { nome: "Pomba", classificacao: "ave" }
+    ]
+
+ const nomesAnimais= animais.map(item=>item.nome);
+ return nomesAnimais
+
+} 
+
+6.
+
